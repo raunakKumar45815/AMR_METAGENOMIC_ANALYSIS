@@ -1,0 +1,49 @@
+# Sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sam
+*.bam
+*.bai
+*.vcf
+*.vcf.gz
+
+# Assemblies and databases
+*.fasta
+*.fa
+*.fna
+*.faa
+*.db
+*.dmnd
+*.bt2
+*.h5
+
+# Results and intermediates
+results/
+output/
+tmp/
+temp/
+work/
+.nextflow*
+logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Credentials
+.env
+*.key
+
+# OS
+Thumbs.db
+.DS_Store.ipynb_checkpoints/
